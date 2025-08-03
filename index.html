@@ -32,17 +32,29 @@
 <!-- 
 5. You should have a main element that contains the different sections of the page.
 -->
+        <main>
 <!-- 
 6. Inside the main element, you should have two section elements.
--->
+-->   
 <!-- 
 7. The first section element should have an id attribute with the value upcoming-events
 -->
+            <section id="upcoming-events">
 <!-- 
 8. Inside the #upcoming-events section, you should have:
 
 --An h2 element with the text Upcoming Events. --Two article elements. Each article should represent an event, and it should have : --An h3 element for the event title. --A p element for the event description. You can add a date at the bottom if you like.
 -->
+                <h2>Upcoming Events</h2>
+                <article>
+                    <h3>Event A</h3>
+                    <p>Event A Description</p>
+                </article>
+                <article>
+                    <h3>Event B</h3>
+                    <p>Event B Description</p>
+                </article>
+            </section>
 <!-- 
 9. The second section element should have an id attribute with the value past-events.
 -->
@@ -54,9 +66,21 @@
 Note: You can use any text for the event descriptions and dates. You can use the following image URLs for the images if you like:
 
 https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg. https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg.
--->
-
-
+-->            
+            <section id="past-events">
+                <h2>Past Events</h2>
+                <article>
+                    <h3>Event 1</h3>
+                    <p>Event 1 Description</p>
+                    <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="event photo">
+                </article>
+                <article>
+                    <h3>Event 2</h3>
+                    <p>Event 2 Description</p>
+                    <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="event photo">
+                </article>
+            </section>
+        </main>
 
 	</body>
 
